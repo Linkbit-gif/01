@@ -1,0 +1,20 @@
+[package]
+name = "memo_core"
+version = "0.1.0"
+authors = ["Antonio Scandurra <as-cii@github.com>", "Nathan Sobo <nathan@github.com>"]
+edition = "2018"
+
+[dependencies]
+diffs = "0.3"
+lazy_static = "1.0"
+flatbuffers = "0.5"
+futures = "0.1"
+serde = "1.0"
+serde_derive = "1.0"
+smallvec = "0.6.1"
+uuid = { version = "0.7", features = ["serde"] }
+
+[dev-dependencies]
+futures-cpupool = "0.1"
+rand = "0.3"
+uuid = { version = "0.7", features = ["serde", "u128"] }

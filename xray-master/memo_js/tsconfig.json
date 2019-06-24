@@ -1,0 +1,13 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "esnext",
+    "declarationMap": true,
+    "declaration": true,
+    "lib": ["es2015", "esnext"],
+    "types": ["node"]
+  }
+}
